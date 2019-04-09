@@ -2,10 +2,8 @@
 // MAGIC %md-sandbox
 // MAGIC <h1 style="font-size: 72px">
 // MAGIC   Intro to
-// MAGIC   <img style="height: 100px" src="https://s3-us-west-2.amazonaws.com/curriculum-release/images/Apache-Spark-Logo_TM_400px.png"/>
+// MAGIC   <img style="vertical-align: text-bottom; height: 100px" src="https://s3-us-west-2.amazonaws.com/curriculum-release/images/Apache-Spark-Logo_TM_400px.png"/>
 // MAGIC </h1>
-// MAGIC 
-// MAGIC <p/><p/>
 // MAGIC 
 // MAGIC <div style="float: right">
 // MAGIC   <img src="https://s3.amazonaws.com/ardentex-spark/spark-philly-jug-2019/images/bmc.jpg" style="width: 200px"/>
@@ -26,7 +24,7 @@
 // MAGIC This talk is a high-level, usage-oriented overview of Apache® Spark™. We'll cover:
 // MAGIC 
 // MAGIC * Architecture (really briefly)
-// MAGIC * [ETL (of Philadelphia crime data)]($./01 ETL)
+// MAGIC * [ETL (of Philadelphia crime data)]($./01-ETL)
 // MAGIC * Some data analysis
 // MAGIC * A bit of prediction
 // MAGIC 
@@ -80,4 +78,5 @@
 
 // COMMAND ----------
 
-
+// MAGIC %md
+// MAGIC Okay, let's do some [ETL]($./01-ETL)
