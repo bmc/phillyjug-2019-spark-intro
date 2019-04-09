@@ -109,8 +109,7 @@ import org.apache.spark.ml.feature.VectorAssembler
 import org.apache.spark.ml.regression.{LinearRegression, LinearRegressionModel}
 
 val vector =  new VectorAssembler()
-  //.setInputCols(Array("month", "count"))
-.setInputCols(Array("year", "month"))
+  .setInputCols(Array("year", "month"))
   .setOutputCol("features")
 
 val lr = new LinearRegression()
